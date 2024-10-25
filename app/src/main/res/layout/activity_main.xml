@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekst"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/guzikZmienKolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zmiana koloru" />
+
+    <Button
+        android:id="@+id/guzikZmienTekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zmiana tekstu" />
+
+    <Button
+        android:id="@+id/guzikUkryjTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ukrywanie tekstu" />
+
+    <Button
+        android:id="@+id/guzikOtworzNowaAktywnosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otwieranie nowej aktywności" />
+
+    <Button
+        android:id="@+id/guzikPowiekszRozmiarTekstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zwiększanie rozmiari tekstu" />
+
+</LinearLayout>
